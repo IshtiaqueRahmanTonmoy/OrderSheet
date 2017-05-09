@@ -8,4 +8,38 @@
     <color name="navigationBarColor">#000000</color>
     <color name="colorAccent">#c8e8ff</color>
     <color name="ColorShade">#d7dcdc</color>
+    <color name="colorWhite1">#F7F7F7</color>
+    <color name="colorBlack">#545454</color>
+
+    <!--  Text colour     -->
+    <color name="colortext">#eeeeee</color>
+    <!--  button colour     -->
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <!--  Text colour     -->
+
+
+
+
+
+    <!--  button colour     -->
+    <color name="color_button">#56a8e2</color>
+
+
+    <!--  Actionbar colour     -->
+    <color name="coloraction">#ddba76</color>
+
+
+    <!--  color_cartimg_background     -->
+    <color name="color_cartimg_back">#eeeeee</color>
+
+    <!--  menufount colour     -->
+    <color name="color_menufont">#555555</color>
+
+
+    <color name="color_layout">#f0f1f5</color>
+
+
+    <color name="color_texmenutop">#989898</color>
 </resources>

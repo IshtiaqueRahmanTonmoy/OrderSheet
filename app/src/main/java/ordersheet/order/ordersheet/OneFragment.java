@@ -5,8 +5,11 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 public class OneFragment extends Fragment{
+
+    Button btnSelectItems;
 
     public OneFragment() {
         // Required empty public constructor
@@ -21,7 +24,15 @@ public class OneFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_one, container, false);
+        View rootview =  inflater.inflate(R.layout.fragment_one, container, false);
+        btnSelectItems = (Button) rootview.findViewById(R.id.selectitems);
+
+        btnSelectItems.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+            }
+        });
+        return rootview;
     }
 
 }
